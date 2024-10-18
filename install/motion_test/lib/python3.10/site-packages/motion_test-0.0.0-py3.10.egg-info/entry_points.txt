@@ -1,0 +1,3 @@
+[console_scripts]
+motion = motion_test.motion:main
+
