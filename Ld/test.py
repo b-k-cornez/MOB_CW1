@@ -27,7 +27,7 @@ def generate_launch_description():
     life_cycle_manager = Node(
         package = "nav2_lifecycle_manager",
         executable = "lifecycle_manager",
-        parameters = [{"node_names": "map_server,amcl"}, {"autostart": "true"}]
+        parameters = [{"node_names": "map_server, amcl"}, {"autostart": "true"}]
     )
 
     map_server = Node(
